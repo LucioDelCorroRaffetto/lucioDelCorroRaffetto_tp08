@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Conexion con css -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Conexion con iconos -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>lucioDelCorroRaffetto_tp08</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- nav de la pagina -->
+        <nav>
+            <a href="#" class="logo">Lucio Del Corro Raffetto</a>
+
+            <input type="checkbox" name="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon-action">
+                <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
+                    onclick="this.classList.toggle('active')">
+                    <path class="line top"
+                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path class="line middle" d="m 30,50 h 40" />
+                    <path class="line bottom"
+                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                </svg>
+            </label>
+
+            <ul class="navlist">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#hero">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#projects">Projectos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="hero">
+            <h4>Programador web Full Stack</h4>
+            <h2>¡Hola, soy Lucio Del Corro Raffetto!</h2>
+            <img src="img/dibuu.jpg" class="foto" alt="foto">
+            <p>Desarrollador apasionado por crear experiencias web asombrosas.</p>
+            <a href="#" class="cta-button">Ver Mis Proyectos</a>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <img class="project_img" src="img/projet1.jpg" alt="projecto1">
+                <p>Esta es una replica de la famosa E-Commerce Mercado Libre.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <img class="project_img" src="img/projet2.jpg" alt="projecto2">
+                <p>Esta es una replica de la famosa E-Commerce Mercado Libre.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <form action="" method="get">
+                <h2>Contáctame</h2>
+                <!-- Email -->
+                <input class="input_email" type="email" placeholder="Ingrese Su email" size="25" name="Usuario"
+                    required><br>
+
+                <!-- Mensaje -->
+                <input class="input_contact" type="text" placeholder="Ingrese su mensaje" size="25" name="Contacto"
+                    required><br>
+
+                <!-- Boton de Enviar -->
+                <a href="index.html" class="cta-button" type="submit">Enviar</a>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Lucio Del Corro Raffetto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
